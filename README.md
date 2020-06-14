@@ -1,5 +1,5 @@
 # StimulEye
-Classifying raw streams of eye tracking data from an eye tracker and analyse it to classify the inputs into eye gaze events, namely Saccades, Fixations and Blinks.
+Classifying raw streams of eye tracking data from an eye tracker and analysing it to classify the inputs into eye gaze events, namely Saccades, Fixations and Blinks.
 
 Abstract: Extraction of eye gaze events is highly dependent on automated powerful software that charge exorbitant prices. This is an open source tool-StimulEye that helps to detect and classify eye gaze events and analyse various metrics related to these events. StimulEye uses deep learning techniques to automate eye gaze event detection that does not require decision making or parametric definitions by humans. The tool aims to provide an end to end solution which takes  raw streams of eye tracking data from an eye tracker and analyses it to classify the inputs into the events, namely Saccades, Fixations and Blinks.
 
