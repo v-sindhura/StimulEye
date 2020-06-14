@@ -18,7 +18,9 @@ Please note that this step will only work if you have a tensorflow compatible gr
 Pip install all the other dependencies mentioned below:
 Keras, csv, math, pandas, numpy, matplotlib, sklearn
 
-Import the .ipynb file into your Jupiter Notebook and run the program. Two files are generated in the directory where your file is located.
+Import the EurekaCopy.ipynb file into your Jupiter Notebook and run the program. Two files are generated in the directory where your file is located.
 
 1stResultantcsv.csv and 2ndResultantcsv.csv- The initial results of this analysis are stored in the first csv file where each gaze point is classified as Blink, Saccade and Fixation. The second csv file denotes all the fixation points of the dataset. The second csv file contains various information about the fixation points such as fixation centroids (X and Y coordinates), fixation duration and fixation radius.
+
+Sample dataset and results have been uploaded for reference in this folder.
 
