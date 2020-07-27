@@ -18,7 +18,9 @@ Please note that this step will only work if you have a tensorflow compatible gr
 Pip install all the other dependencies mentioned below:
 Keras, csv, math, pandas, numpy, matplotlib, sklearn
 
-Import the EurekaCopy.ipynb file into your Jupiter Notebook and run the program. Two files are generated in the directory where your file is located.
+If you have a text file obtained directly from the Eye Tracking device, you can import SplittingToMultiplecsv.ipynb file and upload the text file. The file will automatically be converted to csv and generate multiple csv files for the differenet trials present in the raw text file. The csv files are now compatible for further analysis.
+
+Import the EurekaCopy.ipynb file into your Jupiter Notebook, upload an input csv file and run the program. Two files are generated in the directory where your file is located.
 
 1stResultantcsv.csv and 2ndResultantcsv.csv- The initial results of this analysis are stored in the first csv file where each gaze point is classified as Blink, Saccade and Fixation. The second csv file denotes all the fixation points of the dataset. The second csv file contains various information about the fixation points such as fixation centroids (X and Y coordinates), fixation duration and fixation radius.
 
